@@ -1,7 +1,7 @@
 - name: demo on variables
   hosts: localhost
   connection: local
-  var: 
+  vars: 
     COURSE: "DEVOPS"
     TRAINER: "SHIVA KUMAR"
     DURATION: "150 HRS"
