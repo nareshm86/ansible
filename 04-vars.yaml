@@ -1,4 +1,4 @@
-- name: demo on variables
+- name: "demo on variables"
   hosts: localhost
   connection: local
   vars: 
