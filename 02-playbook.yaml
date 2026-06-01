@@ -1,0 +1,4 @@
+- name: debug message
+  hosts: frontend
+  tasks: hello world
+  - name: debug
