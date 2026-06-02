@@ -1,0 +1,13 @@
+- name: "demo on task level variables"
+  hosts: localhost
+  connection: local
+  vars: 
+    COURSE: "DEVOPS"
+    TRAINER: "SHIVA KUMAR"
+    DURATION: "150 HRS"
+  tasks:
+  - name: print varialbles
+   -vars:
+      COURSE: "DEVSECOPS WITH AI"
+  - debug:
+      msg: "MY {{ COURSE }} TRAINER IS {{ TRAINER }} AND DURATION IS {{ DURATION }}"
