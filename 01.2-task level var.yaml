@@ -1,0 +1,14 @@
+- name: Taks level variables
+  hosts: localhost
+  connection: local
+  vars:
+    COURSE: "DEVOPS"
+    TRAINER: "SHIVA"
+    DURATION: "150 HRS"
+  tasks:
+  - name: print task level variables
+    vars:
+    COURSE: "ANSIBLE"
+    DURATION: "100HRS"
+    debug:
+      msg: "I am learning {{ COURSE }} with {{ TRAINER }} and time {{ DURATION }}"
