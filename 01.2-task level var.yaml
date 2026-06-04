@@ -8,7 +8,7 @@
   tasks:
   - name: print task level variables
     vars:
-    COURSE: "ANSIBLE"
-    DURATION: "100HRS"
+      COURSE: "ANSIBLE"
+      DURATION: "100HRS"
     debug:
       msg: "I am learning {{ COURSE }} with {{ TRAINER }} and time {{ DURATION }}"
