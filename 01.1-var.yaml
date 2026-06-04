@@ -1,7 +1,7 @@
 - name: Play level variables
   hosts: localhost
   connection: local
-  Vars:
+  vars:
     COURSE: "DEVOPS"
     TRAINER: "SHIVA"
     DURATION: "150HRS"
