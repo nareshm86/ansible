@@ -1,5 +1,5 @@
 - name: play level variables
-  host: local host
+  hosts: local
   connection: local
   vars:
     COURSE: DEVOPS
@@ -8,4 +8,3 @@
   tasks:
   - debug:
       msg: "I AM Learning {{ COUSRE }} with trainer is {{ TRAINER }} and TIME {{ DURATION }}"
-
