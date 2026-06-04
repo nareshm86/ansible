@@ -2,9 +2,9 @@
   hosts: localH
   connection: local
   vars:
-    COURSE: DEVOPS
-    TRAINER: SHIVA
-    DURATION: 150 HRS
+    COURSE: "DEVOPS"
+    TRAINER: "SHIVA"
+    DURATION: "150 HRS"
   tasks:
   - debug:
       msg: "I AM Learning {{ COUSRE }} with trainer is {{ TRAINER }} and TIME {{ DURATION }}"
