@@ -1,10 +1,10 @@
-- name: play level variables
-  hosts: localH
+- name: Play levle variables
+  hosts: localhost
   connection: local
-  vars:
+  Vars:
     COURSE: "DEVOPS"
     TRAINER: "SHIVA"
-    DURATION: "150 HRS"
+    DURATION: "150HRS"
   tasks:
   - debug:
-      msg: "I AM Learning {{ COUSRE }} with trainer is {{ TRAINER }} and TIME {{ DURATION }}"
+      msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
